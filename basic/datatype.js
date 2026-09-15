@@ -36,4 +36,5 @@ let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber)
 
-// ****** operation 
+// memory
+//stack(primitive)copy version, Heap(Non-primitive)original copy
