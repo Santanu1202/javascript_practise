@@ -6,7 +6,9 @@ const age = "26"
 // using this ${} we use any function for operation like (touppercase),(proto),
 
 let str = "Hello JavaScript";
-
+const url = "https://www.linkedin.com/in/santanurana/"
+console.log(url.replace('santanurana', 'socialmedia'))
+console.log(url.includes(`santanurana`)) // check that string in url have 
 // 1. length
 // Task: Find the total number of characters in the string.
 
