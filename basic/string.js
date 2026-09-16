@@ -5,10 +5,29 @@ const age = "26"
  console.log(`My name is ${myName.toUpperCase()} and my age is ${age}`);      
 // using this ${} we use any function for operation like (touppercase),(proto),
 
-let str = "Hello JavaScript";
-const url = "https://www.linkedin.com/in/santanurana/"
+
+url = "https://www.linkedin.com/in/santanurana/"
+a=1
+console.log(typeof(a))
+console.log(typeof(url))
 console.log(url.replace('santanurana', 'socialmedia'))
 console.log(url.includes(`santanurana`)) // check that string in url have 
+str = "Hello JavaScript";
+console.log(typeof(str))
+const word = str.split(" ")
+console.log(word)
+console.log(typeof(word))
+console.log(Array.isArray(str))
+a=word.join(" ")
+console.log(a)
+console.log(typeof(a))
+let a
+console.log(a)
+a=10
+
+
+
+
 // 1. length
 // Task: Find the total number of characters in the string.
 
